@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mais sobre tabelas</title>
+</head>
+<body>
+
+    <table border="2" width="800" >
+        <tr> <!--TR define uma linha numa tabela-->
+
+            <th>Codigo </th> <!--TH define uma célula cabeçalho do grupo de células de sua tabela. A exatidão natural deste grupo é definida-->
+            <th>Produto</th>
+            <th>Preço</th>
+        </tr> 
+
+        <tr>
+            <td>001</td> <!--TD significa "Table Data" e define cada uma das células da tabela. Estas tags devem sempre surgir dentro de tags TR -->
+            <td>Notebook</td>
+            <td>199,90</td>
+        </tr>
+
+        <tr>
+            <td>002</td>
+            <td>Cama</td>
+            <td>999.90</td>
+        </tr>
+
+        <tr>
+            <td>003</td>
+            <td>Carro</td>
+            <td>15.000</td>
+        </tr>
+
+        <tr>
+            <!--rowspan extensão da linha-->
+            <td rowspan="2">Desconto</td> 
+
+            <!--colspan Especifica o número de colunas de uma tabela a serem ocupados por uma célula.-->
+            <td colspan="2">cupom1 -R$ 10</td>
+        </tr>
+
+        <tr>
+            <td colspan="2">cupom2 -R$ 12</td>
+        </tr>
+
+        <tr>
+            <td>Total</td>
+            <td colspan="2">R$ 5250.00</td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>
